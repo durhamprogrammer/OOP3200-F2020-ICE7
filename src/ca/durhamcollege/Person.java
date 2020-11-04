@@ -31,6 +31,9 @@ public class Person
 
     // CONSTRUCTORS
 
+    /**
+     * The default cosntructor sets name to "unknown" and age to 0
+     */
     public Person()
     {
         this.m_name = "unknown";
@@ -59,7 +62,6 @@ public class Person
 
     /**
      * This method tests the Person class and returns a simple message to the console
-     * @return {Void}
      */
     public void saysHello()
     {
